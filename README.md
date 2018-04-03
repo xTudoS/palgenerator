@@ -1,1 +1,1 @@
-# palgenerator
+# Gerador BBCode grupo Paltalk
