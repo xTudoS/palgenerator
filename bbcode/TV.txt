@@ -1,0 +1,73 @@
+[Center]
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Televisao/apresenta.png[/img]
+
+
+[b][size=5][color=red]Titulo Aqui[/color][/size][/b]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Televisao/capa.png[/img]
+
+
+[img]Link da Capa[/img]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Televisao/sinopse.png[/img]
+
+
+[b][size=2]Texto sobre o Lançamento[/size][/b]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Televisao/elenco.png[/img]
+
+
+[b][size=2]Lista de Elenco[/size][/b]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Televisao/fichatecnica.png[/img]
+
+
+                  [b]País de origem:[/b] ...
+	  	  [b]Diretor:[/b] ...
+	  	  [b]Duração:[/b] ...
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Televisao/dadosarquivo.png[/img]
+
+
+[size=2][color=blue][b]Dados do Video[/b][/color][/size]
+	  	  [b]Sistema de Cor:[/b] ...
+	  	  [b]Extensao:[/b] ...
+	  	  [b]Qualidade:[/b] ...
+	  	  [b]Resolução:[/b] ... 
+	  	  [b]Formato Tela:[/b] ...
+	  	  [b]Codec Video:[/b] ...
+
+[size=2][color=blue][b]Dados do Audio[/b][/color][/size]
+	  	  [b]Codec Audio:[/b] ...
+	  	  [b]Idioma Original:[/b] ...
+	  	  [b]Tipo de audio:[/b] ...
+	  	  [b]Legendas:[/b] ...
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Televisao/screens.png[/img]
+
+
+[img]Link 1[/img]
+[img]Link 2[/img
+[img]Link 3[/img]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Televisao/trailer.png[/img]
+
+
+[video=Link do Trailer]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Televisao/uploader.png[/img]
+
+
+[size=2][color=red][b]Nick do Uploader[/b][/color][/size] ou [img]Assinatura[/img]
+
+
+[img]http://i.imgur.com/zKY5b9Y.png[/img]
+[/center]	  	  

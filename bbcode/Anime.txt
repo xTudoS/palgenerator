@@ -1,0 +1,73 @@
+[center]
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Anime/apresenta.png[/img]
+
+
+[b][size=5][color=red]Titulo Aqui[/color][/size][/b]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Anime/capa.png[/img]
+
+
+[img]Link da Capa[/img]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Anime/sinopse.png[/img]
+
+
+[b][size=2]Texto de Sinope[/size][/b]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Anime/fichatecnica.png[/img]
+
+
+[size=2][color=blue][b]Dados do Arquivo[/b][/color][/size]	  	  
+                  [b]Titulo Original:[/b] ...
+	  	  					[b]Ano[/b] ...
+	  	  					[b]Duração:[/b] ...
+	  	  					[b]Temporada[/b] ...
+                  [b]Número do Episódio:[/b] ...
+                  [b]Gênero:[/b] ...
+                  [b]País de Origem:[/b] ...
+                  [b]Idioma do Áudio:[/b] ...
+                  [b]Idioma da Legenda:[/b] ...
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Anime/dadosarquivos.png[/img]
+
+[size=2][color=blue][b]Dados do Video[/b][/color][/size]
+	  	  [b]Sistema de Cor:[/b] ...
+	  	  [b]Extensao:[/b] ...
+	  	  [b]Qualidade:[/b] ...
+	  	  [b]Resolução:[/b] ... 
+	  	  [b]Formato Tela:[/b] ...
+	  	  [b]Codec Video:[/b] ...
+
+[size=2][color=blue][b]Dados do Audio[/b][/color][/size]
+	  	  [b]Codec Audio:[/b] ...
+	  	  [b]Idioma Original:[/b] ...
+	  	  [b]Tipo de audio:[/b] ...
+	  	  [b]Legendas:[/b] ...
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Anime/screens.png[/img]
+
+
+[img]Link 1[/img]
+[img]Link 2[/img]
+[img]Link 3[/img]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Anime/trailer.png[/img]
+
+
+[video=Link do Trailer]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Anime/uploader.png[/img]
+
+
+[size=2][color=red][b]Nick do Uploader[/b][/color][/size] ou [img]Assinatura[/img]
+
+
+[img]http://i.imgur.com/zKY5b9Y.png[/img]
+[/center]

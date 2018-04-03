@@ -1,0 +1,39 @@
+[center]
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Revista/apresenta.png[/img]
+
+
+[b][size=5][color=red]Titulo Aqui[/color][/size][/b]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Revista/capa.png[/img]
+
+
+[img]Link da Capa[/img]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Revista/sinopse.png[/img]
+
+
+[b][size=2]Texto sobre a Revista[/size][/b]
+
+
+[img]https://www.manicomio-share.com/images/barras/grupos/Paltalk/Revista/fichatecnica.png[/img]
+
+
+                  [b]Título Original:[/b] ...
+	  	  [b]Editora:[/b] ...
+	  	  [b]Edição:[/b] ...
+	  	  [b]Ano de Lançamento:[/b] ... 
+	  	  [b]Formato:[/b] ...
+	  	  [b]Número de Páginas:[/b] ...
+                  [b]Idioma:[/b] ...
+
+
+[img]https://www.manicomio-share.com/images/barras/grupos/Paltalk/Revista/uploader.png[/img]
+
+
+[size=2][color=red][b]Nick do Uploader[/b][/color][/size] ou [img]Assinatura[/img]
+
+
+[img]http://i.imgur.com/zKY5b9Y.png[/img]
+[/center]

@@ -1,0 +1,58 @@
+[center]
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Aplicativos/apresenta.png[/img]
+
+
+[b][size=5][color=red]Titulo Aqui[/color][/size][/b]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Aplicativos/capa.png[/img]
+
+
+[img]Link da Capa[/img]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Aplicativos/descricao.png[/img]
+
+
+[b][size=2]Texto Sobre o APP[/size][/b]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Aplicativos/dadosapp.png[/img]
+
+
+[size=2][color=blue][b]Dados do Programa[/b][/color][/size]	  	  
+                  [b]Função:[/b] ...
+	  	  [b]Fabricante:[/b] ...
+	  	  [b]Idioma:[/b] ...
+	  	  [b]Versão:[/b] ...
+                  [b]Formato[/b] ...
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Aplicativos/requisitos.png[/img]
+
+
+[quote][b][size=2]Texto Sobre Requisitos Minimo[/size][/b][/quote]
+
+
+[img]https://www.manicomio-share.com/images/barras/grupos/Paltalk/Aplicativos/instalacao.png[/img]
+
+
+[quote][b][size=2]Texto Sobre Como Instalar[/size][/b][/quote]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Aplicativos/screens.png[/img]
+
+
+[img]Link 1[/img]
+[img]Link 2[/img]
+[img]Link 3[/img]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Aplicativos/uploader.png[/img]
+
+
+[size=2][color=red][b]Nick do Uploader[/b][/color][/size] ou [img]Assinatura[/img]
+
+
+[img]http://i.imgur.com/zKY5b9Y.png[/img]
+[/center]

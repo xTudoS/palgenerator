@@ -1,0 +1,78 @@
+[center]
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Seriados/apresenta.png[/img]
+
+
+[b][size=5][color=red]Titulo Aqui[/color][/size][/b]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Seriados/capa.png[/img]
+
+
+[img]Link da Capa[/img]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Seriados/sinopse.png[/img]
+
+
+[b][size=2]Texto sobre a Série[/size][/b]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Seriados/elenco.png[/img]
+
+
+[b][size=2]Lista de Elenco[/size][/b]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Seriados/fichatecnica.png[/img]
+
+
+                  [b]Título Original:[/b] ...
+	  	  [b]Gênero:[/b] ...
+	  	  [b]Duração:[/b] ...
+	  	  [b]Temporada:[/b] ...
+                  [b]Criadores:[/b] ...
+                  [b]País de Origem:[/b] ...
+                  [b]IMDB:[/b] ...
+                  [b]Ano de Lançamento:[/b] ...
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Seriados/dadosarquivos.png[/img]
+
+
+[size=2][color=blue][b]Dados do Video[/b][/color][/size]
+	  	  [b]Formato:[/b] ...
+	  	  [b]Qualidade:[/b] ...
+	  	  [b]Qualidade:[/b] ...
+	  	  [b]Resolução:[/b] ... 
+	  	  [b]Formato Tela:[/b] ...
+	  	  [b]Codec Video:[/b] ...
+
+[size=2][color=blue][b]Dados do Audio[/b][/color][/size]
+	  	  [b]Codec Audio:[/b] ...
+	  	  [b]Idioma Original:[/b] ...
+	  	  [b]Tipo de audio:[/b] ...
+	  	  [b]Legendas:[/b] ...
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Seriados/screens.png[/img]
+
+
+[img]Link 1[/img]
+[img]Link 2[/img]
+[img]Link 3[/img]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Seriados/trailer.png[/img]
+
+
+[video=Link do Trailer]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Seriados/uploader.png[/img]
+
+
+[size=2][color=red][b]Nick do Uploader[/b][/color][/size] ou [img]Assinatura[/img]
+
+
+[img]http://i.imgur.com/zKY5b9Y.png[/img]
+[/center]

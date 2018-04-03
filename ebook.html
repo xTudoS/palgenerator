@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+
+<head>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <title>Sess⭺ E-Books</title>
+</head>
+<style>
+    /*        .col-xl-4 {
+            background-color: #330033;
+        }
+
+        .col-xl-8 {
+            background-color: #CCE5FF;
+        }
+
+        .row {
+            background-color: #C0C0C0;
+        }
+*/
+</style>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/metodos.js"></script>
+    <script type="text/javascript" src="js/themoviedb.js"></script>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-8">
+                <form id="form">
+                    <input type="hidden" name="nome_formulario" value="Ebook">
+                    <label>Centralizar</label>
+                    <input type="checkbox" checked name="check_centralizar"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <label>Paltalk Apresenta</label>
+                    <input type="checkbox" checked name="check_apresenta"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+                    <h5>Descri袯 do arquivo
+                        <input type="checkbox" checked name="check_descricao"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </h5>
+
+                    <div class="row form-group">
+                        <div class="col">
+                            <!--Inicio coluna DENTRO do form -->
+                            <label>T쳵lo do post</label>
+                            <input type="text" class="form-control" name="titulo_post">
+                        </div>
+                        <!--Fim coluna DENTRO do form -->
+                        <div class="col">
+                            <label>Capa</label>
+                            <input type="checkbox" checked name="check_capa">
+                            <input type="text" class="form-control" name="capa">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col">
+                            <label>Sinopse</label>
+                            <input type="checkbox" checked name="check_sinopse">
+                            <textarea class="form-control" name="sinopse"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col">
+                            <label>Titulo no Brasil</label>
+                            <input type="text" class="form-control" name="titulo_brasil">
+                        </div>
+
+                        <div class="col">
+                            <label>Titulo Original</label>
+                            <input type="text" class="form-control" name="titulo_original">
+                        </div>
+
+                        <div class="col">
+                            <label>Nome Autores</label>
+                            <input type="text" class="form-control" name="nome_autores">
+                        </div>
+
+                        <div class="col">
+                            <label>Genero</label>
+                            <input type="text" class="form-control" name="genero">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-sm-2">
+                            <label>Ano da edição</label>
+                            <input type="text" class="form-control" name="ano">
+                        </div>
+
+                        <div class="col-sm-2">
+                            <label>Editora</label>
+                            <input type="text" class="form-control" name="editora">
+                        </div>
+
+                        <div class="col-sm-1">
+                            <label>Paginas</label>
+                            <input type="text" class="form-control" name="paginas">
+                        </div>
+
+                        <div class="col-sm-2">
+                            <label>Serie</label>
+                            <input type="text" class="form-control" name="serie">
+                        </div>
+
+                        <div class="col-sm-1">
+                            <label>Volume</label>
+                            <input type="text" class="form-control" name="volume">
+                        </div>
+
+                        <div class="col-sm-2">
+                            <label>Idioma</label>
+                            <input type="text" class="form-control" name="idioma">
+                        </div>
+
+                        <div class="col">
+                            <label>Formato</label>
+                            <input type="text" class="form-control" name="formato">
+                        </div>
+
+                    </div>
+
+                    <!-- <form name="form_uploader"> -->
+                    <h5>
+                        Uploader
+                        <input type="checkbox" checked name="uploader">
+                    </h5>
+
+                    <div class="row form-group">
+                        <div class="col-sm-3">
+                            <label>Nick</label>
+                            <input type="text" class="form-control" name="nick">
+                        </div>
+
+                        <div class="col-sm-3 ">
+                            <label>URL do Nick</label>
+                            <input type="text" class="form-control" name="url_nick">
+                        </div>
+
+                        <div class="col-sm-2 ">
+                        </div>
+
+                        <div class="col-sm-4 ">
+                            <button type="button" class="btn btn-primary" onClick="history.back()">Voltar</button>
+                            <button type="button" class="btn btn-danger" onClick="resetForm()">Limpar</button>
+                            <button type="button" class="btn btn-success btn-lg" onClick="createBBCode()">Gerar</button>
+                        </div>
+                    </div>
+                    <!-- </form> -->
+
+                    <!-- <form name=" form_seed "> -->
+                    <h5>
+                        Fique de seed!
+                        <input type="checkbox" checked name="fique_de_seed">
+                    </h5>
+
+                </form>
+            </div>
+            <!-- </form> -->
+            <!-- fim coluna 1 -->
+
+            <div class="col-xl-4 ">
+                <!-- textarea bbcode -->
+                <div class="input-group ">
+                    <textarea id="bbcode" name="bbcode" class="form-control" rows="34"></textarea>
+                </div>
+                <!-- fim textarea bbcode -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

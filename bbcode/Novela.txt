@@ -1,0 +1,69 @@
+[center]
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Novela/apresenta.png[/img]
+
+
+[b][size=5][color=red]Titulo Aqui[/color][/size][/b]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Novela/capa.png[/img]
+
+
+[img]Link da Capa[/img]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Novela/sinopse.png[/img]
+
+
+[b][size=2]Texto de Sinope[/size][/b]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Novela/elenco.png[/img]
+
+
+[b][size=2]Lista com Elenco da novela[/size][/b]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Novela/fichatecnica.png[/img]
+
+
+                  [b]Titulo do Brasil:[/b] ...
+	  	  [b]Titulo Original[/b] ...
+	  	  [b]Ano:[/b] ...
+	  	  [b]País de Origem:[/b] ...
+                  [b]Duração:[/b] ...
+                  [b]Tipo do Áudio:[/b] ...
+                  [b]Idioma do Áudio:[/b] ...
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Novela/dadosarquivo.png[/img]
+
+
+                  [b]Extensao:[/b] ...
+	  	  [b]Qualidade:[/b] ...
+	  	  [b]Resolução:[/b] ... 
+	  	  [b]Codec de Vídeo:[/b] ...
+	  	  [b]Codec de áudio:[/b] ...
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Novela/screens.png[/img]
+
+
+[img]Link 1[/img]
+[img]Link 2[/img]
+[img]Link 3[/img]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Novela/trailer.png[/img]
+
+
+[video=Link do Trailer]
+
+
+[img]http://www.manicomio-share.com/images/barras/grupos/Paltalk/Novela/uploader.png[/img]
+
+
+[size=2][color=red][b]Nick do Uploader[/b][/color][/size] ou [img]Assinatura[/img]
+
+
+[img]http://i.imgur.com/zKY5b9Y.png[/img]
+[/center]
