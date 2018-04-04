@@ -63,8 +63,12 @@ function createBBCode() {
             $("textarea[name='bbcode']").append("[b][color=#000000] Titulo no Brasil: [/b][/color]" + info[i].value + "\n");
         }
 
+        if (info[i].name === "titulo_original" && info[i].value !== "") {
+            $("textarea[name='bbcode']").append("[b][color=#000000] Titulo Original: [/b][/color]" + info[i].value + "\n");
+        }
+
         if (info[i].name === "nome_autores" && info[i].value !== "") {
-            $("textarea[name='bbcode']").append("[b][color=#000000] Sinopse: [/b][/color]" + info[i].value + "\n");
+            $("textarea[name='bbcode']").append("[b][color=#000000] Nome Autores: [/b][/color]" + info[i].value + "\n");
         }
 
         if (info[i].name === "editora" && info[i].value !== "") {
@@ -73,6 +77,10 @@ function createBBCode() {
 
         if (info[i].name === "paginas" && info[i].value !== "") {
             $("textarea[name='bbcode']").append("[b][color=#000000] Paginas: [/b][/color]" + info[i].value + "\n");
+        }
+
+        if (info[i].name === "situacao" && info[i].value !== "") {
+            $("textarea[name='bbcode']").append("[b][color=#000000] Situação: [/b][/color]" + info[i].value + "\n");
         }
 
         if (info[i].name === "check_musicas" && info[i].value === "on") {
@@ -91,10 +99,6 @@ function createBBCode() {
             $("textarea[name='bbcode']").append("[img]https://www.manicomio-share.com/images/barras/grupos/Paltalk/" + categoria + "/fichatecnica.png[/img]" + "\n");
         }
 
-        if (info[i].name === "titulo_original" && info[i].value !== "") {
-            $("textarea[name='bbcode']").append("[b][color=#000000] Titulo Original: [/b][/color]" + info[i].value + "\n");
-        }
-
         if (info[i].name === "autor" && info[i].value !== "") {
             $("textarea[name='bbcode']").append("[b][color=#000000] Autor: [/b][/color]" + info[i].value + "\n");
         }
@@ -103,14 +107,21 @@ function createBBCode() {
             $("textarea[name='bbcode']").append("[b][color=#000000] Ano : [/b][/color]" + info[i].value + "\n");
         }
 
-        if (info[i].name === "editora" && info[i].value !== "") {
-            $("textarea[name='bbcode']").append("[b][color=#000000] Editora : [/b][/color]" + info[i].value + "\n");
+        if (info[i].name === "serie" && info[i].value !== "") {
+            $("textarea[name='bbcode']").append("[b][color=#000000] Série : [/b][/color]" + info[i].value + "\n");
         }
 
-        if (info[i].name === "Paginas" && info[i].value !== "") {
-            $("textarea[name='bbcode']").append("[b][color=#000000] Paginas : [/b][/color]" + info[i].value + "\n");
+        if (info[i].name === "volume" && info[i].value !== "") {
+            $("textarea[name='bbcode']").append("[b][color=#000000] Volume : [/b][/color]" + info[i].value + "\n");
         }
 
+        if (info[i].name === "idioma" && info[i].value !== "") {
+            $("textarea[name='bbcode']").append("[b][color=#000000] Idioma : [/b][/color]" + info[i].value + "\n");
+        }
+
+        if (info[i].name === "formato" && info[i].value !== "") {
+            $("textarea[name='bbcode']").append("[b][color=#000000] Formato : [/b][/color]" + info[i].value + "\n");
+        }
 
         if (info[i].name === "temporada" && info[i].value !== "") {
             $("textarea[name='bbcode']").append("[b][color=#000000] Temporada: [/b][/color]" + info[i].value + "\n");
