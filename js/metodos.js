@@ -75,6 +75,10 @@ function createBBCode() {
             $("textarea[name='bbcode']").append("[b][color=#000000] Editora: [/b][/color]" + info[i].value + "\n");
         }
 
+        if (info[i].name === "edicao" && info[i].value !== "") {
+            $("textarea[name='bbcode']").append("[b][color=#000000] Edição: [/b][/color]" + info[i].value + "\n");
+        }
+
         if (info[i].name === "paginas" && info[i].value !== "") {
             $("textarea[name='bbcode']").append("[b][color=#000000] Paginas: [/b][/color]" + info[i].value + "\n");
         }
@@ -104,7 +108,7 @@ function createBBCode() {
         }
 
         if (info[i].name === "ano" && info[i].value !== "") {
-            $("textarea[name='bbcode']").append("[b][color=#000000] Ano : [/b][/color]" + info[i].value + "\n");
+            $("textarea[name='bbcode']").append("[b][color=#000000] Ano de lançamento: [/b][/color]" + info[i].value + "\n");
         }
 
         if (info[i].name === "serie" && info[i].value !== "") {
