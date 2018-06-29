@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+
+<head>
+    <script type="text/javascript" src="js/themoviedb.js"></script>
+    <script type="text/javascript" src="js/metodos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<script>
+    window.onload = function () {
+        var botao = document.getElementById("botao_imdb");
+        botao.addEventListener("click", iteraObjeto());
+
+        var enter = document.getElementById("id_imdb");
+        enter.addEventListener("keydown", function (evento) {
+            if (evento.key === "Enter") {
+                evento.preventDefault();
+                iteraObjeto();
+                console.log("Evento enter");
+            }
+        });
+    };
+    /*         theMovieDb.find.getById({ "language": "pt-BR", "id": "tt2527336", "external_source": "imdb_id" },
+                function sucessCB(data) {
+                    var jsonobj = JSON.parse(data);
+                    console.log(JSON.stringify(jsonobj, null, '\t'));
+                    $("#titulo_imdb").val(jsonobj.movie_results[0].title);
+                    $("#sinopse_imdb").val(jsonobj.movie_results[0].overview);
+                },
+                function errorCB(data) {
+                    console.log("Error callback" + data);
+                });
+        
+            var btn = document.getElementById("btn");
+     */ //btn.addEventListener("click",teste());
+
+    /*         theMovieDb.movies.getImages({ "id": 76203 }, function sucessCB(data) {
+                var jsonobj = JSON.parse(data);
+                console.log(JSON.stringify(jsonobj, null, '\t'));
+            }, function errorCB(data) {
+                console.log("Error callback" + data);
+            }); */
+</script>
+
+<body>
+
+    <label>id_imdb</label>
+    <input value="tt2527336" name="id_imdb" id="id_imdb" type="text" />
+    <label>titulo</label>
+    <input type="text" name="titulo_imdb" id="titulo_imdb">
+    <label>titulo original</label>
+    <input type="text" name="titulo_original_imdb" id="titulo_original_imdb">
+    <label>sinopse_imdb</label>
+    <input type="text" name="sinopse_imdb" id="sinopse_imdb">
+    <label>data_imdb</label>
+    <input type="text" name="data_imdb" id="data_imdb">
+
+    <button id="botao_imdb">imdb</button>
+</body>
+
+</html>

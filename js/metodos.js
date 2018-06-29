@@ -1,3 +1,10 @@
+/**
+ * @category  Misc
+ * @author    Abrah�o Bittar
+ * @link      www.github.com.br/abrahaobittar/palgenerator
+ */
+
+
 function inputFormInfo() {
     //Debug mode
     //console.log("-->inputFormInfo");
@@ -11,6 +18,10 @@ function resetForm() {
     //$("textarea[name='bbcode']").val(""); Não funciona
     $('#bbcode').text('');
 }
+
+/**
+ * Captura os dados e preenche o textArea com o bbcode
+ */
 
 function createBBCode() {
     //escreve no textarea o conteudo dos arrays;
@@ -48,7 +59,7 @@ function createBBCode() {
         }
 
         if (info[i].name === "capa" && info[i].value !== "") {
-            $("textarea[name='bbcode']").append("[img]" + info[i].value + "[img]" + "\n");
+            $("textarea[name='bbcode']").append("[img]" + info[i].value + "[/img]" + "\n");
         }
 
         if (info[i].name === "check_sinopse" && info[i].value === "on") {
@@ -60,7 +71,7 @@ function createBBCode() {
         }
 
         if (info[i].name === "titulo" && info[i].value !== "") {
-            $("textarea[name='bbcode']").append("[b][color=#000000] Titulo no Brasil: [/b][/color]" + info[i].value + "\n");
+            $("textarea[name='bbcode']").append("[b][color=#000000] Título no Brasil: [/b][/color]" + info[i].value + "\n");
         }
 
         if (info[i].name === "titulo_original" && info[i].value !== "") {
@@ -238,4 +249,34 @@ function createBBCode() {
         $("textarea[name='bbcode']").append("[/center]")
     }
 
+}
+
+/**
+ *  Captura os dados pelo ID do ImDB
+ *  Status: Em Desenvolvimento
+ */
+function iteraObjeto() {
+    var id = $("#id_imdb").val();
+
+    theMovieDb.find.getById({
+        "language": "pt-BR",
+        "id": id,
+        "external_source": "imdb_id"
+    },
+        function sucessCB(data) {
+            var jsonobj = JSON.parse(data);
+            var data_imdb;
+            var title = jsonobj.movie_results[0].title;
+            var original_title = jsonobj.movie_results[0].original_title;
+            var overview = jsonobj.movie_results[0].overview;
+            console.log(jsonobj);
+            console.log(JSON.stringify(jsonobj, null, '\t'));
+
+            data_imdb = jsonobj.movie_results[0].release_date;
+            $("#titulo_original").val(title);
+
+        },
+        function errorCB(data) {
+            console.log("Error callback" + data);
+        });
 }

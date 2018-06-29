@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+
+<head>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <title>Sessão: Esportes</title>
+</head>
+<style>
+    /*        .col-xl-4 {
+            background-color: #330033;
+        }
+
+        .col-xl-8 {
+            background-color: #CCE5FF;
+        }
+
+        .row {
+            background-color: #C0C0C0;
+        }
+*/
+</style>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/metodos.js"></script>
+    <script type="text/javascript" src="js/themoviedb.js"></script>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-8">
+                <form id="form">
+                    <input type="hidden" name="nome_formulario" value="Esporte">
+                    <label>Centralizar</label>
+                    <input type="checkbox" checked name="check_centralizar"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <label>Paltalk Apresenta</label>
+                    <input type="checkbox" checked name="check_apresenta"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+                    <h5>Descrição do Arquivo
+                        <input type="checkbox" checked name="check_descricao"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </h5>
+
+                    <div class="row form-group">
+                        <div class="col">
+                            <!--Inicio coluna DENTRO do form -->
+                            <label>Título do Post</label>
+                            <input type="text" class="form-control" name="titulo_post">
+                        </div>
+                        <!--Fim coluna DENTRO do form -->
+                        <div class="col">
+                            <label>Capa</label>
+                            <input type="checkbox" checked name="check_capa">
+                            <input type="text" class="form-control" name="capa">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col">
+                            <label>Sinopse</label>
+                            <input type="checkbox" checked name="check_sinopse">
+                            <textarea class="form-control" name="sinopse"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- inicio da Ficha tecnica-->
+                    <!-- <form name="form_fichatecnica"> -->
+                    <h5>Ficha Técnica
+                        <input type="checkbox" checked name="check_ficha">
+                    </h5>
+                    <div class="row form-group ">
+
+                        <div class="col-sm-4 ">
+                            <label>Título Original</label>
+                            <input type="text" class="form-control" name="titulo_original">
+                        </div>
+
+                        <div class="col-sm-3">
+                            <label>Autor</label>
+                            <input type="text" class="form-control" name="autor">
+                        </div>
+
+                        <div class="col">
+                            <label>Ano</label>
+                            <input type="text" class="form-control" maxlength="4" name="ano">
+                        </div>
+
+                        <div class="col-sm-1">
+                            <label>Temp</label>
+                            <input type="text" class="form-control" maxlength="2" name="temporada">
+                        </div>
+
+                        <div class="col-sm-1">
+                            <label>Nº</label>
+                            <input type="text" class="form-control" maxlength="2" name="ep">
+                        </div>
+
+                        <div class="col">
+                            <label>Duração</label>
+                            <input type="text" class="form-control" name="duracao">
+                        </div>
+                    </div>
+                    <!-- </form> -->
+
+                    <!-- <form name="form_fichatecnica"> -->
+                    <div class="row form-group">
+                        <div class="col-sm-2">
+                            <label>Idioma do Áudio</label>
+                            <input type="text" class="form-control" name="idioma_audio">
+                        </div>
+
+                        <div class="col-sm-2">
+                            <label>País de Origem</label>
+                            <input type="text" class="form-control" name="pais_origem">
+                        </div>
+
+                        <div class="col-sm-2">
+                            <label>Legendas</label>
+                            <input type="text" class="form-control" name="legendas">
+                        </div>
+
+                        <div class="col-sm-2">
+                            <label>Grupo Legenda</label>
+                            <input type="text" class="form-control" name="grupo_legendas">
+                        </div>
+
+                        <div class="col-sm-2">
+                            <label>Gênero</label>
+                            <input type="text" class="form-control" name="genero">
+                        </div>
+
+                        <div class="col-sm-2">
+                            <label>Formato Tela</label>
+                            <select class="form-control" name="formato_tela">
+                                <option>Widescreen</option>
+                                <option>Fullscreen</option>
+                                <option>Fullframe</option>
+                                <option>Letterbox</option>
+                                <option>Outro</option>
+                                <option>Nenhum</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <!--fim ficha tecnica-->
+                    <!-- </form> -->
+
+                    <!-- inicio dados do arquivo -->
+                    <!-- <form name="form_dadosdoarquivo"> -->
+                    <h5>
+                        Dados do Arquivo
+                        <input type="checkbox" checked name="check_dados_arquivos">
+                    </h5>
+
+                    <div class="row form-group">
+                        <div class="col-sm-2">
+                            <label>Extensão</label>
+                            <select class="form-control" id="selectCustom" name="extensao">
+                                <option>MKV</option>
+                                <option>AVI</option>
+                                <option>MP4</option>
+                                <option>WMV</option>
+                                <option>MPG</option>
+                                <option>ASF</option>
+                                <option>MOV</option>
+                                <option>SKF</option>
+                                <option>RM</option>
+                                <option>RMVB</option>
+                                <option>VOB</option>
+                                <option>ISO</option>
+                                <option>NGR</option>
+                                <option>MDF/MDS</option>
+                                <option>RAT DVD</option>
+                                <option>UIF (Magic ISO)</option>
+                                <option>DAA (Power ISO)</option>
+                            </select>
+                        </div>
+
+
+                        <div class="col-sm-2">
+                            <label>Qualidade</label>
+                            <select class="form-control" name="qualidade">
+                                <option>WEB-DL</option>
+                                <option>HDTV</option>
+                                <option>HD</option>
+                                <option>Blu-Ray</option>
+                                <option>DVD-R</option>
+                                <option>WEBRip</option>
+                                <option>BD-25</option>
+                                <option>Remux</option>
+                                <option>4K</option>
+                                <option>Blu-Ray 4K</option>
+                                <option>BDRip - UHD 4K</option>
+                                <option>DVD-R 9</option>
+                                <option>BRRip</option>
+                                <option>HDRip</option>
+                                <option>DVDRip</option>
+                                <option>DVDScr</option>
+                                <option>DVB</option>
+                                <option>DSR</option>
+                                <option>HDTC</option>
+                                <option>TC</option>
+                                <option>R5</option>
+                                <option>VCD</option>
+                                <option>TVRip</option>
+                                <option>HDDVD</option>
+                                <option>BDRip</option>
+                                <option>VHS-Rip</option>
+                                <option>SDTV</option>
+                                <option>SiteRip</option>
+                                <option>Outro</option>
+                            </select>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <label>Resolução</label>
+                            <input type="text" class="form-control" name="resolucao">
+                        </div>
+
+                        <div class="col-sm-2">
+                            <label>Codec de Áudio</label>
+                            <select class="form-control" name="codec_audio">
+                                <option>MP3</option>
+                                <option>AC3</option>
+                                <option>AAC</option>
+                                <option>OGG</option>
+                                <option>DTS</option>
+                                <option>FLAC</option>
+                                <option>MPC</option>
+                                <option>APE</option>
+                                <option>OFR</option>
+                                <option>ATRAC3</option>
+                                <option>Real Audio 7</option>
+                                <option>Real Alternative</option>
+                                <option>WAV</option>
+                                <option>MID</option>
+                                <option>Outro</option>
+                            </select>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <label>Codec de Vídeo</label>
+                            <select class="form-control" name="codec_video">
+                                <option>DivX</option>
+                                <option>XviD</option>
+                                <option>RAM</option>
+                                <option>DAT</option>
+                                <option>OGG</option>
+                                <option>MPEG-1</option>
+                                <option>MPEG-2</option>
+                                <option>MPEG-3</option>
+                                <option>3ivx</option>
+                                <option>On2VP6</option>
+                                <option>AVC</option>
+                                <option>H.264</option>
+                                <option>H.265</option>
+                                <option>x264</option>
+                                <option>x265</option>
+                                <option>Real Video 4</option>
+                                <option>Outro</option>
+                            </select>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <label>Canais de Áudio</label>
+                            <select class="form-control" name="canais_audio">
+                                <option>Nenhum</option>
+                                <option>2.0</option>
+                                <option>5.1</option>
+                                <option>7.1</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- </form> -->
+                    <!-- fim dados do arquivo -->
+
+                    <!-- <form name="form_screenshot"> -->
+                    <h5>Screenshots
+                        <input type="checkbox" checked name="screenshot">
+                    </h5>
+
+                    <div class="row form-group ">
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" name="screen1">
+                        </div>
+
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" name="screen2">
+                        </div>
+
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" name="screen3">
+                        </div>
+
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" name="screen4">
+                        </div>
+                    </div>
+                    <!-- </form> -->
+
+                    <!-- <form name="form_uploader"> -->
+                    <h5>
+                        Uploader
+                        <input type="checkbox" checked name="uploader">
+                    </h5>
+
+                    <div class="row form-group">
+                        <div class="col-sm-3">
+                            <label>Nick</label>
+                            <input type="text" class="form-control" name="nick">
+                        </div>
+
+                        <div class="col-sm-3 ">
+                            <label>URL do Nick</label>
+                            <input type="text" class="form-control" name="url_nick">
+                        </div>
+
+                        <div class="col-sm-2 ">
+                        </div>
+
+                        <div class="col-sm-4 ">
+                            <button type="button" class="btn btn-primary" onClick="history.back()">Voltar</button>
+                            <button type="button" class="btn btn-danger" onClick="resetForm()">Limpar</button>
+                            <button type="button" class="btn btn-success btn-lg" onClick="createBBCode()">Gerar</button>
+                        </div>
+                    </div>
+                    <!-- </form> -->
+
+                    <!-- <form name=" form_seed "> -->
+                    <h5>
+                        Fique de seed!
+                        <input type="checkbox" checked name="fique_de_seed">
+                    </h5>
+
+                </form>
+            </div>
+            <!-- </form> -->
+            <!-- fim coluna 1 -->
+
+            <div class="col-xl-4 ">
+                <!-- textarea bbcode -->
+                <div class="input-group ">
+                    <textarea id="bbcode" name="bbcode" class="form-control" rows="34"></textarea>
+                </div>
+                <!-- fim textarea bbcode -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
