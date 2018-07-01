@@ -106,6 +106,10 @@ function createBBCode() {
             $("textarea[name='bbcode']").append("[b][color=#000000] Músicas: [/b][/color]" + info[i].value + "\n");
         }
 
+		if (info[i].name === "check_elenco" && info[i].value === "on") {
+            $("textarea[name='bbcode']").append("[img]https://www.manicomio-share.com/images/barras/grupos/Paltalk/" + categoria + "/elenco.png[/img]" + "\n");
+        }
+		
         if (info[i].name === "elenco" && info[i].value !== "") {
             $("textarea[name='bbcode']").append("[b][color=#000000] Elenco: [/b][/color]" + info[i].value + "\n");
         }
